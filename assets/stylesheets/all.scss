@@ -1,0 +1,21 @@
+// assets/stylesheets/all.scss
+
+@import "bootstrap/scss/functions";
+
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/containers";
+
+@import "bootstrap/scss/buttons";
+
+@import "bootstrap/scss/utilities/api";
+
+// 以上可把 import 改為 use，以免 run 的時候會出現 Warning
+// 詳細內容和其他方法可參考 sass 官方文件 https://sass-lang.com/documentation/breaking-changes/import/
