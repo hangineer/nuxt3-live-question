@@ -3,6 +3,23 @@
 <template>
   <div>
     <p class="title">Page: 首頁</p>
+    <header>
+      <ul class="list">
+        <li>
+          <NuxtLink to="/">前台首頁</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/about">前台 About</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/admin">後台首頁</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink to="/admin/order">後台訂單</NuxtLink>
+        </li>
+      </ul>
+    </header>
+    <hr>
     <button type="button" class="btn btn-primary">Primary</button>
     <button type="button" class="btn btn-secondary">Secondary</button>
     <button type="button" class="btn btn-success">Success</button>
