@@ -1,5 +1,7 @@
-# Day 2 - Nuxt3 專案引入 CSS 樣式 題目
+# 分支說明
+day2-style：每日任務 day02/day03
 
+# Day 2 - Nuxt3 專案引入 CSS 樣式 題目
 
 請 clone 這一份模板，在 Nuxt3 引入 Bootstrap5  v5.3.3 並達成以下條件 :
 - 設置  assets/stylesheets   資料夾，在內層新增 all.scss 檔案並引入以下 [bootstrap5 的 SCSS](https://getbootstrap.com/docs/5.3/customize/sass/#importing)
@@ -46,7 +48,7 @@ git clone -b day2-style  https://github.com/jasonlu0525/nuxt3-live-question.git 
 ### 移動到專案內
 
 ```bash
-cd  day2-style-question 
+cd  day2-style-question
 ```
 
 ### 安裝套件
