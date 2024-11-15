@@ -1,3 +1,4 @@
+import axios from 'axios';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
@@ -9,4 +10,7 @@ export default defineNuxtConfig({
       linkExactActiveClass: "active",
     },
   },
+  // axios: {
+  //   baseURL: "https://nuxr3.zeabur.app",
+  // },
 });
