@@ -1,5 +1,5 @@
 <script setup>
-// navigateTo("/register");
+navigateTo("/register");
 
 // ❌ $fetch 會造成重複請求的問題，SSR 與 CSR 都會發送，且結果還不同（因 randomuser.me 每次打的結果是隨機的）
 // const data = await $fetch("https://randomuser.me/api/");
